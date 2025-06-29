@@ -2,9 +2,8 @@ name: On push Build and Test
 
 on:
   push:
-    branches:
-       - develop
-       - feature
+    branches: [ develop, feature]
+    
 jobs:
   build_test:
 
