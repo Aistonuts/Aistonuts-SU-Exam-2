@@ -3,7 +3,6 @@ name: On push Build and Test
 on:
   push:
     branches:
-       - develop
        - feature
 
 jobs:
